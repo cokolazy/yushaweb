@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> WEB PORTOFOLIO </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    </head>
+    <body>
+    <section class="hero">
+        <div class="background-image">  
+        <header>
+            <img class="logo" src="pokemon1.png" width="169" height="" alt="logo">
+            <nav>
+                <div class="hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>                     
+                </div>
+                <ul class="nav_links">
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About Me</a></li>
+                    <li><a href="#section3">Hobbies</a></li>
+                    <li><a href="#section4">Portofolio</a></li>
+                    <li class="btn"><a href="#section6"> Contact Me </a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- home -->
+        <div id="section1">
+        <div class="container">
+            <div class="hero-text">
+                <h3> Hello </h3>
+                <h1> I Am <span class="input"></span></h1>
+                <div class="social">
+                    <a href="https://instagram.com/yushasaja?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=6281216962367&text=Hallo"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/cokolazy"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <button type="button"> More About Me </button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:[" Young Yusha Yahya ", "Full Healing", " Full Icikiwir", "Full Ngeluuu"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        });
+    </script>
+    </div>
+    <!-- about -->
+    <div id="section2">
+    <section class="about">
+        <div class="main">
+            <img src="yushahoyy.jpg" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <H5> Student <span> & FullTimeHealing </span></H5>
+                <p> Saya merupakan seorang siswa dari sekolah di Malang yaitu SMK TELKOM MALANG
+                    berada di Sawojajar, Kota Malang. Rumah saya terletak di daerah Kabupaten 
+                    Kota Malang yaitu di Singosari.
+                </p>
+                <a class="button" href="#sectionmap"> Map </a>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Location -->
+    <div id="sectionmap" class="map">
+        <h1> Tebak Lokesyen</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.8313209123285!2d112.66323281451916!3d-7.912682580949354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62a2c92411d29%3A0xba7b6ed10db10e86!2sBlk.%20GRI%20No.1%2C%20Boko%2C%20Watugede%2C%20Kec.%20Singosari%2C%20Kabupaten%20Malang%2C%20Jawa%20Timur%2065153!5e0!3m2!1sid!2sid!4v1662088242146!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- hobbies -->
+    <div id="section3">
+    <div class="service">
+        <div class="title">
+            <h2> Hobbies </h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-film"></i>
+                <h5> Film </h5>
+                <div class="pra">
+                    <p> Menonton Film merupakan hal yang saya gemari ketika saya gabut atau tidak ada kegiatan apapun, karena menonton Film itu seru uhuyyy. 
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h5> Mendaki </h5>
+                <div class="pra">
+                    <p> Mendaki pergi ke gunung atau sekedar jalan jalan merupakan hobi saya yang saya gemari ketika pergi berlibur maupun sekedar healing.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <h5> Ngegame </h5>
+                <div class="pra">
+                    <p> Ngegame juga merupakan hobi saya yang saya sering lakukan ketika gabut atau hanya sekedar untuk bersenang - senang.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+    <!-- portofolio -->
+    <div id="section4">
+    <div class="service">
+        <div class="title">
+            <h2> Portofolio </h2>
+        </div>
+        <div class="box">
+            <div class="car">
+                <img src="wallpaper nsx.png" alt="">
+                <h5> Vector Art </h5>
+                <div class="pra">
+                    <p> Saya pernah membuat karya dari adobe ilustrator yaitu vector art, dan lain - lain. 
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+            <div class="car">
+                <div class="pra">
+                    <img src="ayo.png" alt="">
+                    <h5> Ayo Masak </h5>
+                    <p> Saya pernah membuat beberapa UI dari figma yaitu web design, dan lain lain.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+            <div class="car">
+                <div class="pra">
+                    <img src="photosop.png" alt="">
+                    <h5> Photoshop </h5>
+                    <p> Saya pernah membuat karya dari adobe photoshop seperti mengedit foto, dan lain lain.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+    <!-- contact me -->
+    <div id="section5">
+    <div class="contact-me">
+        <p> Mumettt Tugasss </p>
+        <a class="button-two" href="https://api.whatsapp.com/send?phone=6281216962367&text=Hallo"> Contact Me </a>
+    </div>
+</div>
+    <!-- footer -->
+    <div id="section6">
+    <footer>
+        <p> Young Yusha Yahya </p>
+        <p> Icikiwir , Istimiwir  </p>
+        <div class="social">
+            <a href="https://instagram.com/yushasaja?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=6281216962367&text=Hallo"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/cokolazy"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="end"> CopyRight By Young Yusha Yahya </p>
+    </footer>
+</div>
+    </body>
+</html>
